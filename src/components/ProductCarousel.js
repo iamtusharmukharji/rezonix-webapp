@@ -7,7 +7,7 @@ import Rezo_bck from './Rezo_bck.jpg';
 
 
 function ProductCarousel() {
-  const images = [rezonixMainPage, imgs1, imgs2, rezonixMainPage];
+  const images = [rezonixMainPage, imgs1, imgs2];
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
 
@@ -31,7 +31,7 @@ function ProductCarousel() {
         setTimeout(() => {
           carouselRef.current.style.transition = 'transform 0.5s ease-in-out';
         }, 50);
-      }, 500); // Small delay to wait for the end of the transition
+      }, 1000); // Small delay to wait for the end of the transition
     }
   };
 

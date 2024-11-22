@@ -35,7 +35,7 @@ function Footer() {
       <div className="about-section">
         {/* <h3>Rezonix</h3>
         <p>At Rezonix, we specialize in designing cutting-edge switches that transform your home into a smart living space.<br />Whether you’re looking to enhance convenience, security, or energy efficiency, Rezonix is your trusted partner in creating a modern and automated home.</p> */}
-         <h4>Discover Us on trusted E-Commerce Sites of India</h4>
+         <h4>Find us on India's trusted E-Commerce Sites</h4>
         <div className="social-icons">
           <a href="#" className="social-icon"><img src={amazonLogo} height={30} width={30}/></a> {/* Replace with social media icons */}
           <a href="#" className="social-icon"><img src={flipkartLogo} height={30} width={30}/></a>
