@@ -7,11 +7,11 @@ function Testimonials() {
     { id: 2, name: "Abhishek Rai", feedback: "Impressive wifi switches, especially the colourful night lights", rating: 4 },
     { id: 3, name: "Swati Khanna", feedback: "Best in class with extra features", rating: 4 },
     { id: 4, name: "Chandralok Pandey", feedback: "Very addictive, makes you lazier :).", rating: 5 },
-    { id: 5, name: "Chandralok Pandey", feedback: "Very addictive, makes you lazier :).", rating: 5 },
-    { id: 6, name: "Chandralok Pandey", feedback: "Very addictive, makes you lazier :).", rating: 5 },
+    { id: 5, name: "Vineet Kumar", feedback : "Scheduled on/off switches anytime is my favourite", rating: 5 },
+    { id: 6, name: "Harshita Singh", feedback: "It made my life more comfortable", rating: 5 },
   ];
 
-  const [currentIndex, setCurrentIndex] = useState(2);
+  const [currentIndex, setCurrentIndex] = useState(1);
   const [itemsPerSlide, setItemsPerSlide] = useState(3);
 
   useEffect(() => {
